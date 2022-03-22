@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:layout_editor_absoluteX="1dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BT7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BT7"
+                android:text="@string/seven" />
+
+            <Button
+                android:id="@+id/BT8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BT8"
+                android:text="@string/eight" />
+
+            <Button
+                android:id="@+id/BT9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BT9"
+                android:text="@string/nine" />
+
+            <Button
+                android:id="@+id/BTC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BTC"
+                android:text="@string/borrar" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BT4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BT4"
+                android:text="@string/four" />
+
+            <Button
+                android:id="@+id/BT5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BT5"
+                android:text="@string/five" />
+
+            <Button
+                android:id="@+id/BT6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BT6"
+                android:text="@string/six" />
+
+            <Button
+                android:id="@+id/BTMULT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BTMULT"
+                android:text="@string/multiplicar" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BT1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BT1"
+                android:text="@string/one" />
+
+            <Button
+                android:id="@+id/BT2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BT2"
+                android:text="@string/two" />
+
+            <Button
+                android:id="@+id/BT3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BT3"
+                android:text="@string/three" />
+
+            <Button
+                android:id="@+id/BTDIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BTDIV"
+                android:text="@string/dividir" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BT0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BT0"
+                android:text="@string/zero" />
+
+            <Button
+                android:id="@+id/BTSUMA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BTSUMA"
+                android:text="@string/suma" />
+
+            <Button
+                android:id="@+id/BTRESTA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BTRESTA"
+                android:text="@string/resta" />
+
+            <Button
+                android:id="@+id/BTIGUAL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BTIGUAL"
+                android:text="@string/igual" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </TableLayout>
+
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="false"
+        android:inputType="none"
+        tools:ignore="LabelFor"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

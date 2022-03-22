@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+
+    <string name="borrar">C</string>
+    <string name="dividir">/</string>
+    <string name="multiplicar">×</string>
+    <string name="suma">+</string>
+    <string name="resta">-</string>
+    <string name="sin">sin</string>
+    <string name="igual">=</string>
+    <string name="display">Enter in a value</string>
+</resources>
